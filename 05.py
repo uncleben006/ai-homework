@@ -2,6 +2,11 @@ import wx
 import os
 import my_frame  
 
+
+# FileDialog(parent, title, defaultDir="", defaultFile="",
+#            wildcard=FileSelectorDefaultWildcardStr, style=FD_DEFAULT_STYLE,
+#            pos=DefaultPosition, size=DefaultSize, name=FileDialogNameStr)
+
 class CustomEvent(my_frame.MyFrame): 
 
     def new( self,event ): 
